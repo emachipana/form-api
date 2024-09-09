@@ -1,1 +1,3 @@
+import "./database/index.js";
+
 console.log("Hello world");
