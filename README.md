@@ -2,7 +2,7 @@
 ## Routes
 <code>/api/v1/</code>
 <ul>
-  <li>companies</li>
-  <li>questions</li>
-  <li>answers</li>
+  <li><code>companies</code></li>
+  <li><code>questions</code></li>
+  <li><code>answers</code></li>
 </ul>
