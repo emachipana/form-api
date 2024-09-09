@@ -12,11 +12,7 @@ const companySchema = new mongoose.Schema(
     },
     email: {
       type: String
-    },
-    answers: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Answer"
-    }]
+    }
   },
   {
     timestamps: true,
