@@ -7,13 +7,12 @@ const questionSchema = new mongoose.Schema(
       required: true
     },
     options: {
-      type: [],
-      required: true
+      type: []
     },
-    answers: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Answer"
-    }]
+    isRequired: {
+      type: Boolean,
+      default: true
+    }
   },
   {
     timestamps: true,

@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const answerSchema = new mongoose.Schema(
   {
-    company: {
+    companyId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Company"
     },
-    question: {
+    questionId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Question"
     },
