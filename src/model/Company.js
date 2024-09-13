@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 const companySchema = new mongoose.Schema(
   {
     ruc: {
-      type: String,
-      required: true
+      type: String
     },
     rSocial: {
       type: String,
