@@ -9,17 +9,6 @@ const questionSchema = new mongoose.Schema(
     },
     options: {
       type: []
-    },
-    isRequired: {
-      type: Boolean,
-      default: true
-    },
-    isToFilter: {
-      type: Boolean,
-      default: false
-    },
-    filterOption: {
-      type: String
     }
   },
   {
