@@ -9,6 +9,10 @@ const questionSchema = new mongoose.Schema(
     },
     options: {
       type: []
+    },
+    isToFilter: {
+      type: Boolean,
+      default: false
     }
   },
   {
